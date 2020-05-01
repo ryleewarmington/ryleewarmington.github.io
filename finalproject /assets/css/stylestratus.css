@@ -1,0 +1,179 @@
+body {
+background-color: #BAD3E4;
+}
+
+.nav{
+    background-color: #FFD774;
+    font-family:'Muli', sans-serif;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: #CC915E;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #04345C;
+}
+
+a:hover {
+    text-decoration: underline solid;
+  }
+
+a{
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+  }
+
+#stratustitle {
+color: #04345C;
+font-family: 'Fredoka One', cursive;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-weight: bold;
+font-size: 30px;
+position: absolute;
+top: 9%;
+left: 65.5%;
+}
+
+#stratustext {
+  color: #4C5D70;
+  font-size: 15px;
+  font-family:'Muli', sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EDF2F3;
+  border-radius: 60px;
+  width: 550px;
+  height: 500px;
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  line-height: 2;
+  padding: 15px;
+}
+
+#stratus1 {
+position: absolute;
+top: 13%;
+left: 1%;
+animation: stratuscloud1animation 3s ease-in 0s;
+}
+
+@keyframes stratuscloud1animation {
+  0% {
+    left: 1;
+  }
+  50% {
+    left: 53%;
+  }
+  100% {
+    left: 1;
+  }
+}
+
+#stratus2 {
+position: absolute;
+top: 13%;
+left: 22%;
+animation: stratuscloud2animation 3s ease-in 0s;
+}
+
+@keyframes stratuscloud2animation {
+  0% {
+    left: 22;
+  }
+  50% {
+    left: 75%;
+  }
+  100% {
+    left: 22;
+  }
+}
+
+#stratus3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+animation: stratuscloud3animation 3s ease-in 0s;
+}
+
+@keyframes stratuscloud3animation {
+  0% {
+    left: 30;
+  }
+  50% {
+    left: 70%;
+  }
+  100% {
+    left: 30;
+  }
+}
+
+#stratus4 {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  animation: stratuscloud4animation 3s ease-in 0s;
+}
+
+@keyframes stratuscloud4animation {
+  0% {
+    left: 8;
+  }
+  50% {
+    left: 48%;
+  }
+  100% {
+    left: 8;
+  }
+}
+
+
+#stratus5 {
+  position: absolute;
+  top: 66%;
+  left: 22%;
+  animation: stratuscloud5animation 3s ease-in 0s;
+}
+
+@keyframes stratuscloud5animation {
+  0% {
+    left: 22;
+  }
+  50% {
+    left: 75%;
+  }
+  100% {
+    left: 22;
+  }
+}
+
+#stratus6 {
+  position: absolute;
+  top: 66%;
+  left: 1%;
+  animation: stratuscloud6animation 3s ease-in 0s;
+}
+@keyframes stratuscloud6animation {
+  0% {
+    left: 1;
+  }
+  50% {
+    left: 53%;
+  }
+  100% {
+    left: 1;
+  }
+}

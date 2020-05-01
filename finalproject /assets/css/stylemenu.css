@@ -1,0 +1,108 @@
+body {
+  background-color: #E1ECF4;
+}
+
+html {
+    margin: 0px;
+}
+
+#titlewords {
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+color: #04345C;
+font-size: 75px;
+position: absolute;
+top: 55%;
+left: 20%;
+}
+
+.nav{
+    font-family:'Muli', sans-serif;
+    z-index: 10;
+    font-size: 30px;
+    position: absolute;
+    top: 75%;
+    left: 32%;
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: #4C5D70;
+}
+
+
+a:hover {
+    font-weight: bold;
+  }
+
+a{
+    padding: 0px 10px;
+    word-wrap: normal;
+    display: inline-block;
+  }
+
+#titlesun {
+  position: absolute;
+    top: 3%;
+    left: 72%;
+  animation: sunspin 2s ease-in 0s  ;
+}
+@keyframes sunspin {
+  from {
+       transform:rotate(0deg);
+   }
+   to {
+       transform:rotate(360deg);
+   }
+ }
+
+#titleseagull1 {
+position: absolute;
+top: 180px;
+left: 370px;
+}
+
+#titleseagull2 {
+position: absolute;
+top: 15px;
+left: 45px;
+}
+#raincloud1 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}
+
+#raincloud2 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+#raincloud3 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+
+#raincloud4 {
+  position: absolute;
+  top: 48%;
+  left: 44%;
+}
+
+#raincloud5 {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+}
+
+#raincloud6 {
+  position: absolute;
+  top: 34%;
+  left: 68%;
+}
